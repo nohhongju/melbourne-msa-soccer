@@ -8,9 +8,14 @@ export default function Nav(){
                 <li className={style.li}> <Link href='/'>Home</Link></li>
                 <li className={style.li}> <Link href='/admin/dashboard'>Dashboard</Link></li>
                 <li className={style.li}> <Link href='/basic'>Basic</Link></li>
+                <li className={style.li}> <Link href='/basic/bmi'>Bmi</Link></li>
+                <li className={style.li}> <Link href='/basic/calc'>Calc</Link></li>
+                <li className={style.li}> <Link href='/basic/counter'>Counter</Link></li>
                 <li className={style.li}> <Link href='/board/board-list'>BoardList</Link></li>
+                <li className={style.li}> <Link href='/board/board-form'>BoardForm</Link></li>
                 <li className={style.li}> <Link href='/game/game-list'>GameList</Link></li>
                 <li className={style.li}> <Link href='/game/team-list'>TeamList</Link></li>
+                <li className={style.li}> <Link href='/game/team-form'>TeamForm</Link></li>
                 <li className={style.li}> <Link href='/todo/todo-list'>TodoList</Link></li>
                 <li className={style.li}> <Link href='/user/sign-in'>SignIn</Link></li>
                 <li className={style.li}> <Link href='/user/sign-up'>SignUp</Link></li>
