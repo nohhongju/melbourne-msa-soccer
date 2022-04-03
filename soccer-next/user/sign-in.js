@@ -12,9 +12,11 @@ export default function Login(){
     }
     const handleClick = (e) => {
         e.preventDefault()
-        memberLogin({username, password}).then(res => {setResult(res.data)}).catch(err =>console.log(`에러발생 : ${err}`))
+        const Request = {username, password}
+        alert(`데이터셋 출력 : ${JSON.stringify(Request)}`)
     }
-    return <><h1>Login</h1> 
+    return <>
+        <h1>Login</h1> 
             <label><b>Username</b></label><br />
             <input id="username"type="" onChange={handleChange}/><br />
             <label><b>Password</b></label><br />
