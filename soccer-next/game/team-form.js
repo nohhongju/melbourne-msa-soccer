@@ -23,7 +23,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="teamId">팀 ID</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="TeamId" name="TeamId" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="TeamId"
+                     name="TeamId" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -31,7 +32,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="teamId">팀 ID</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="TeamId" name="TeamId" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="TeamId"
+                     name="TeamId" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -39,7 +41,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="teamId">연고지</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="TeamId" name="TeamId" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="TeamId"
+                     name="TeamId" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -47,7 +50,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="teamId">팀명</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="TeamId" name="TeamId" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="TeamId" 
+                    name="TeamId" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -55,7 +59,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="orgYyyy">창단년도</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="orgYyyy" name="orgYyyy" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="orgYyyy" 
+                    name="orgYyyy" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -63,7 +68,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="stadiumName">스타디움 명칭</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="stadiumName" name="stadiumName" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="stadiumName"
+                     name="stadiumName" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -71,7 +77,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="address">주소</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="address" name="address" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="address" 
+                    name="address" onChange={handleChange}/>
                 </div>
             </div>
             <div className={style.row}>
@@ -79,7 +86,8 @@ export default function TeamForm(){
                     <label className={style.label} htmlFor="tel">전화번호</label>
                 </div>
                 <div className={style.col75}>
-                    <input type="text" className={style.inputText} id="tel" name="tel" onChange={handleChange}/>
+                    <input type="text" className={style.inputText} id="tel" 
+                    name="tel" onChange={handleChange}/>
                 </div>
             </div>
             <br/>

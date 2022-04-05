@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function Bmi(){
+    const proxy = 'http://localhost:5000'
     const [inputs,setInputs] = useState({})
     
     const handleChange = (e) => {
@@ -12,7 +13,7 @@ export default function Bmi(){
     }
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post('http://localhost:5000/api/basic/bmi',inputs)
+        axios.post(proxy+'/api/basic/bmi',inputs)
         .then(res => {
             const bmi = res.data
             document.getElementById('result-span').innerHTML =`

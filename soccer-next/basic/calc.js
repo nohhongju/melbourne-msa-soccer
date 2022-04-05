@@ -24,7 +24,7 @@ export default function Calc(){
         .catch(err => alert(err))
     }
 
-    return <diw>
+    return <div>
         <form action="" onSubmit={handleClick}>
         <h1>Calc</h1>
             <label htmlFor=""><b>Num1 </b></label>
@@ -43,5 +43,5 @@ export default function Calc(){
             <input type="submit" value="계산결과"/><br/>
         </form>
             <div>결과 : <span id="result-span"></span></div>
-    </diw>
+    </div>
 } 
